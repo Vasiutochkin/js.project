@@ -8,8 +8,8 @@
 .userBox {
     font-style: italic;
     padding: 15px;
-    border: 2px solid #1f1f1e;
-    background: rgba(210, 210, 204, 0.58);
+    border: 2px solid #de1bde;
+    background: rgba(210, 204, 207, 0.58);
     border-radius: 19px;
     display: flex;
     flex-direction: column;
