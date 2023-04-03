@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 18px;
+    row-gap: 18px;
+}
+
+.userBox {
+    font-style: italic;
+    padding: 15px;
+    border: 2px solid #1f1f1e;
+    background: rgba(210, 210, 204, 0.58);
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxH3 {
+    font-size: 30px;
+    color: rgba(75, 70, 70, 0.87)
+}
+
+.button {
+    font-style: italic;
+    height: 32px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 130px;
+    font-size: 20px;
+    background: rgba(210, 210, 204, 0.58);
+
+    box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.49);
+
+}
