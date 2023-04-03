@@ -1,0 +1,33 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.container_1 {
+    font-size: 30px;
+    box-sizing: border-box;
+    background: rgba(210, 210, 204, 0.58);
+    border-radius: 23px;
+    padding: 12px;
+    color: rgba(75, 70, 70, 0.87);
+    border: 2px solid
+}
+
+.container_2 {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 7px;
+}
+
+.postDiv {
+    box-sizing: border-box;
+    background: rgba(210, 210, 204, 0.58);
+    border-radius: 13px;
+    font-size: 30px;
+    padding: 6px;
+    color: rgba(75, 70, 70, 0.87);
+    border: 1px solid;
+}
